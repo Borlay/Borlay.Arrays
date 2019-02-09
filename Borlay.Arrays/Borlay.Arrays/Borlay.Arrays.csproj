@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <Description>Byte array type for better Equals performance with custom GetHashCode implementation.</Description>
+    <PackageLicenseUrl>https://github.com/Borlay/Borlay.Arrays/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Borlay/Borlay.Arrays</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Byte array</PackageTags>
+    <PackageProjectUrl>http://borlay.org</PackageProjectUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Paulius Kanoverskis</Authors>
+    <Copyright>Paulius Kanoverskis</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
