@@ -51,7 +51,6 @@ namespace Borlay.Arrays
 
             int length = right.Length;
 
-
             fixed (byte* str = left)
             {
                 byte* chPtr = str;
